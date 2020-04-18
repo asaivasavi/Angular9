@@ -3,7 +3,12 @@ import { Component } from '@angular/core';
     //selector: '[app-server]', // attribute
     //selector: '.app-server', //class 
     selector : 'app-server',
-    templateUrl : './server.component.html'
+    templateUrl : './server.component.html',
+    styles:[`
+    .online{
+        color: white
+    }
+    `]
 })
 
 export class ServerComponent{
