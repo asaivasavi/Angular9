@@ -18,7 +18,7 @@ export class DirectiveTry {
 
   onClickButton(){
     this.displayText= ! this.displayText;
-    this.buttonClick.push(this.count++);
+    this.buttonClick.push(this.count+1);
   }
 
 }

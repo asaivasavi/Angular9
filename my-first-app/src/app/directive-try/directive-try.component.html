@@ -1,4 +1,4 @@
-<p>try works!</p>
+<p>Click on the button to see the hidden text</p>
 <button class="btn btn-primary" (click)="onClickButton()">Display details </button>
 <p *ngIf="displayText" >Click the button to hide this text.</p>
 <p *ngFor= "let count of buttonClick; let i=index" [ngStyle]="{backgroundColor : i >=5 ? 'blue' : 'transperant' }" [ngClass]="{addColor: i >= 5}">Button click count is {{ count }} </p>
